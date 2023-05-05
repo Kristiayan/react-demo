@@ -9,9 +9,9 @@ export const App = () => {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="todo" element={<TodoPage />} />
-          <Route path="*" element={<ErrorPage />} />
+          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="todo" element={<TodoPage />} />
+          <Route exact path="*" element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>
     </>
