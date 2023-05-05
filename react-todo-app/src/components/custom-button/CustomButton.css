@@ -1,0 +1,16 @@
+.custom-button {
+  background: none;
+  border: none;
+  outline: none;
+  font-family: cursive;
+  color: rgb(199, 199, 199);
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  color: black;
+}
+
+.custom-button.selected {
+  color: rgb(72, 128, 255);
+}

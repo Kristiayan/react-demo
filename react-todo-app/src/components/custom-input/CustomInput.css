@@ -1,0 +1,17 @@
+.custom-input,
+.custom-input:is(:focus, :hover, :active) {
+  border: none;
+  outline: none;
+}
+
+.custom-input::placeholder {
+  color: rgb(199, 199, 199);
+}
+
+.custom-input {
+  font-family: cursive;
+  font-weight: 500;
+  font-size: 1em;
+  caret-color: rgb(72, 128, 255);
+  width: 100%;
+}
