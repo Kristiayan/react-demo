@@ -106,6 +106,7 @@ export const TodoPage = () => {
                 >
                   {sortedItems.map((item, index) => (
                     <Draggable
+                      isDragDisabled={selected === 'Active' || selected === "Completed"}
                       key={item.name + item.id}
                       draggableId={item.id}
                       index={index}

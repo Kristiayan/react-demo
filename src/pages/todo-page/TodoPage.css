@@ -63,8 +63,7 @@
 }
 
 .todo-list-container-footer {
-  border-bottom-left-radius: 0.3em;
-  border-bottom-right-radius: 0.3em;
+  border-radius: 0.3em;
   display: flex;
   padding: 0.8em;
   background-color: white;
