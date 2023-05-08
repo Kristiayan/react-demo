@@ -7,10 +7,10 @@ import "./App.css";
 export const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/react-demo">
         <Routes>
-          <Route path="react-demo/" element={<HomePage />} />
-          <Route path="react-demo/todo" element={<TodoPage />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/todo" element={<TodoPage />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>
