@@ -2,7 +2,7 @@
   "name": "react-demo",
   "private": true,
   "version": "0.0.0",
-  "homepage": ".",
+  "homepage": "https://kristiayan.github.io/react-demo/",
   "type": "module",
   "scripts": {
     "dev": "vite",
